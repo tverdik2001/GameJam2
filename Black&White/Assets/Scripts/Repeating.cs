@@ -7,7 +7,7 @@ public class Repeating: MonoBehaviour
 
     private void Awake ()
     {
-        groundHorizontalLength = 20.61f;
+        groundHorizontalLength = 24f;
     }
 
     private void Update()
