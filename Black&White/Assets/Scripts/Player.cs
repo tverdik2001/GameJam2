@@ -3,31 +3,31 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
-{
-    private bool isDead;
+{   private bool isDead;
     private Rigidbody2D rb2d;
     public float upForce=200f;
+    public float sp = 1.5f;
     // Start is called before the first frame update
     void Start()
     {
         isDead=false;
         rb2d=GetComponent<Rigidbody2D>();
+        
     }
 
     // Update is called once per frame
     void Update()
-    {
-        if(!isDead){
-            if(Input.GetMouseButtonDown(0)){
-                rb2d.velocity=Vector2.zero;
-                rb2d.AddForce(new Vector2(0,upForce));
-
-            }
-        }
+    { 
+    //if(Input.anyKey){
+      if (Input.GetKey(KeyCode.UpArrow)) {
+       transform.Translate(Vector3.up * 7 * Time.deltaTime, Space.World);
+      }
+      if (Input.GetKey(KeyCode.DownArrow)) {
+        transform.position += Vector3.down * sp * Time.deltaTime;
+      }
+      
+     //}
     }
 
-    void OnCollisionEnter2D(){
-        isDead=true;
-        GameControl.instance1.ghostDied();
-    }
+   
 }
