@@ -1,10 +1,287 @@
 Base path: 'C:/Program Files/Unity/Hub/Editor/2019.3.7f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.3.7f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
-Cmd: compileSnippet
-  api=4 type=0 insize=1302 outsize=1414 kw=UNITY_PASS_SHADOWCASTER SHADOWS_DEPTH pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1302 outsize=218 kw=UNITY_PASS_SHADOWCASTER SHADOWS_DEPTH _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=1602 outsize=1894 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL LIGHTPROBE_SH _SPECULARHIGHLIGHTS_OFF _GLOSSYREFLECTIONS_OFF pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1602 outsize=6814 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL LIGHTPROBE_SH pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileComputeKernel
+  api=4 insize=18299 outsize=8518 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=18299 outsize=8523 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=18299 outsize=10507 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15840 outsize=10500 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=20668 outsize=27771 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=7351 outsize=583 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=824 outsize=449 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=9415 outsize=9441 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=9415 outsize=3350 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=15715 outsize=3063 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3043 outsize=2697 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=1454 outsize=1455 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=8070 outsize=4638 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=8070 outsize=7046 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=4855 outsize=8597 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4855 outsize=3708 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4855 outsize=5412 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=21751 outsize=21785 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=797 outsize=4821 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=17620 outsize=7333 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3918 outsize=3422 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3918 outsize=662 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=1372 outsize=1281 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=1372 outsize=678 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=642 outsize=741 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=2596 outsize=2186 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=10881 outsize=10585 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=1834 outsize=1067 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=12535 outsize=4218 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=12535 outsize=665 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=12535 outsize=4886 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3022 outsize=2044 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=857 outsize=578 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at VolumetricLighting.compute(224): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=36538 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at VolumetricLighting.compute(224): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=36538 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at VolumetricLighting.compute(224): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=36538 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at VolumetricLighting.compute(224): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=36538 outsize=0 ok=0
+Cmd: compileComputeKernel
+  api=4 insize=3471 outsize=3082 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=2044 outsize=1000 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=21704 outsize=14529 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=21704 outsize=15241 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4245 outsize=244 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3654 outsize=1059 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=8898 outsize=12677 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=7160 outsize=8216 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=7918 outsize=532 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=17654 outsize=1503 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=17654 outsize=12006 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=17654 outsize=5562 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=2059 outsize=372 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=4918 outsize=2708 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=2905 outsize=1860 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5065 outsize=4889 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5065 outsize=898 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=9029 outsize=6440 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=11251 outsize=14982 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=10338 outsize=7446 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=10338 outsize=3652 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=25900 outsize=13735 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=25900 outsize=15695 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=25900 outsize=15879 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/SurfaceShading.hlsl(97): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=15603 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/SurfaceShading.hlsl(97): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=15603 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/SurfaceShading.hlsl(97): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=15603 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/SurfaceShading.hlsl(97): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=15603 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/SurfaceShading.hlsl(97): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=15603 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/SurfaceShading.hlsl(97): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=15603 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/SurfaceShading.hlsl(97): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=15603 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/SurfaceShading.hlsl(97): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=15603 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/SurfaceShading.hlsl(97): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=15603 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/SurfaceShading.hlsl(97): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=15603 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/SurfaceShading.hlsl(97): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=15603 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/SurfaceShading.hlsl(97): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=15603 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/SurfaceShading.hlsl(97): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=15603 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/SurfaceShading.hlsl(97): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=15603 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/SurfaceShading.hlsl(97): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=15603 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/SurfaceShading.hlsl(97): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=15603 outsize=0 ok=0
+Cmd: compileComputeKernel
+  api=4 insize=3607 outsize=1820 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5725 outsize=7136 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3072 outsize=375 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/SurfaceShading.hlsl(97): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=19301 outsize=0 ok=0
+Cmd: compileComputeKernel
+  api=4 insize=3797 outsize=1744 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=11912 outsize=1172 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=1940 outsize=2732 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3584 outsize=2513 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=3289 outsize=4635 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=7423 outsize=1322 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=7423 outsize=1261 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=13624 outsize=2094 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=13624 outsize=2204 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/SurfaceShading.hlsl(97): 'ComputeShadowColor': no matching 2 parameter function
+  api=4 insize=4838 outsize=0 ok=0
+Cmd: compileComputeKernel
+  api=4 insize=1165 outsize=1319 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 9 at (12): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  error: 2 plat 9 at (16): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/Common/VFXCommonCompute.cginc'
+  error: 2 plat 9 at (17): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/VFXCommon.cginc'
+  api=9 insize=5774 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 9 at (12): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  error: 2 plat 9 at (16): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/Common/VFXCommonCompute.cginc'
+  error: 2 plat 9 at (17): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/VFXCommon.cginc'
+  api=9 insize=6197 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 9 at (10): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  error: 2 plat 9 at (14): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/Common/VFXCommonCompute.cginc'
+  error: 2 plat 9 at (15): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/VFXCommon.cginc'
+  api=9 insize=5634 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 9 at (12): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  error: 2 plat 9 at (33): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/Common/VFXCommonCompute.cginc'
+  error: 2 plat 9 at (34): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/VFXCommon.cginc'
+  api=9 insize=7786 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 9 at (12): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  error: 2 plat 9 at (16): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/Common/VFXCommonCompute.cginc'
+  error: 2 plat 9 at (17): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/VFXCommon.cginc'
+  api=9 insize=5973 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 9 at (11): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  error: 2 plat 9 at (18): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/Common/VFXCommonCompute.cginc'
+  error: 2 plat 9 at (19): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/VFXCommon.cginc'
+  api=9 insize=5837 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 9 at (11): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  error: 2 plat 9 at (22): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/Common/VFXCommonCompute.cginc'
+  error: 2 plat 9 at (23): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/VFXCommon.cginc'
+  api=9 insize=5985 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 9 at (10): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  error: 2 plat 9 at (19): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/Common/VFXCommonCompute.cginc'
+  error: 2 plat 9 at (20): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/VFXCommon.cginc'
+  api=9 insize=4125 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Fireworks1.vfx(13): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  api=4 insize=5662 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Fireworks1.vfx(10): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  api=4 insize=4948 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Starfield.vfx(10): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  api=4 insize=6073 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Starfield.vfx(10): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  api=4 insize=4795 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Starfield.vfx(12): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  api=4 insize=5323 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Starfield.vfx(10): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  api=4 insize=4773 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Fireworks2.vfx(10): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  api=4 insize=6259 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Fireworks2.vfx(10): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  api=4 insize=5985 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Fireworks2.vfx(13): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  api=4 insize=5475 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 9 at (15): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  error: 2 plat 9 at (19): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/Common/VFXCommonCompute.cginc'
+  error: 2 plat 9 at (20): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/VFXCommon.cginc'
+  api=9 insize=5822 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 9 at (13): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/RenderPipeline/HDRP/VFXDefines.hlsl'
+  error: 2 plat 9 at (17): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/Common/VFXCommonCompute.cginc'
+  error: 2 plat 9 at (18): failed to open source file: 'Packages/com.unity.visualeffectgraph/Shaders/VFXCommon.cginc'
+  api=9 insize=5269 outsize=0 ok=0
+Cmd: initializeCompiler
+Cmd: initializeCompiler

@@ -43,3 +43,13 @@ The following packages were added:
   com.unity.textmeshpro@2.0.1
   com.unity.timeline@1.2.13
   com.unity.ugui@1.0.0
+
+=== Mon Apr 13 11:02:44 2020
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.ext.nunit@1.0.0
+  com.unity.postprocessing@2.1.7
+  com.unity.render-pipelines.high-definition@7.0.1

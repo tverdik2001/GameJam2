@@ -12,16 +12,26 @@ public class PlayerControl : MonoBehaviour
     MeshRenderer renderer;
 
     public bool remote = false;
+    public AudioClip gameOver;
+    
+    AudioSource audioSource;
+
+    public int Lives = 3;
+
 
     void Start()
     {
 
-        Cursor.lockState = CursorLockMode.Locked;
+        audioSource = GetComponent<AudioSource>();
         rigidbody = GetComponent<Rigidbody>();
         mouseCurLocation = new Vector3(Input.mousePosition.x, 0.5f, Input.mousePosition.y);
         mousePreviousLocation = mouseCurLocation;
         //Cursor.visible = false;
         renderer = GetComponent<MeshRenderer>();
+        if (remote)        
+            Cursor.lockState = CursorLockMode.None;        
+        else
+            Cursor.lockState = CursorLockMode.Locked;
     }
 
 
@@ -35,12 +45,14 @@ public class PlayerControl : MonoBehaviour
     public float topSpeed = 5;
 
     Color currentColor = Color.black;
+    public GameObject damageEffect;
 
     void FixedUpdate()
     {
 
         if (remote)
         {
+          
             mouseCurLocation = new Vector3(Input.mousePosition.x, 0.5f, Input.mousePosition.y);
             force = mouseCurLocation - mousePreviousLocation;
         }
@@ -74,6 +86,32 @@ public class PlayerControl : MonoBehaviour
 
         renderer.material.color = currentColor;
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Borders"))
+        {
+            Lives--;
+            if (Lives == 0 )
+            {
+                GameOver();
+            }
+            audioSource.clip = gameOver;
+            audioSource.Play();            
+            var damageEffectObject = Instantiate(damageEffect);
+            damageEffectObject.transform.position = transform.position;
+            Destroy(damageEffectObject,1f);
+        }
+    }
+
+    public void GameOver()
+    {
+        //Place for enable gameover UI and restart level logic. 
+        Debug.Log("Game over");       
+    }
+
+   
+
 
 
 }
