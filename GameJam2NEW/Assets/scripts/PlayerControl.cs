@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerControl : MonoBehaviour
 {
@@ -16,12 +17,13 @@ public class PlayerControl : MonoBehaviour
     
     AudioSource audioSource;
 
-    public int Lives = 3;
+    public GameObject[] Lives = new GameObject[10];
+    public int numLives=10;
 
 
     void Start()
     {
-
+        
         audioSource = GetComponent<AudioSource>();
         rigidbody = GetComponent<Rigidbody>();
         mouseCurLocation = new Vector3(Input.mousePosition.x, 0.5f, Input.mousePosition.y);
@@ -32,6 +34,7 @@ public class PlayerControl : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;        
         else
             Cursor.lockState = CursorLockMode.Locked;
+        
     }
 
 
@@ -49,7 +52,7 @@ public class PlayerControl : MonoBehaviour
 
     void FixedUpdate()
     {
-
+        
         if (remote)
         {
           
@@ -91,8 +94,9 @@ public class PlayerControl : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Borders"))
         {
-            Lives--;
-            if (Lives == 0 )
+            numLives--;
+            Lives[numLives].SetActive(false);
+            if (numLives == 0 )
             {
                 GameOver();
             }
@@ -107,7 +111,10 @@ public class PlayerControl : MonoBehaviour
     public void GameOver()
     {
         //Place for enable gameover UI and restart level logic. 
-        Debug.Log("Game over");       
+        Debug.Log("Game over"); 
+        Debug.Log("Game over2"); 
+        SceneManager.LoadScene(2);
+          
     }
 
    

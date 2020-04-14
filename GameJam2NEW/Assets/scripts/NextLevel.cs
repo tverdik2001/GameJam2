@@ -28,8 +28,8 @@ public class NextLevel : MonoBehaviour
     public void OnTriggerEnter(Collider other)
     {
         //make sure player hits the exit
-        if (other.gameObject.CompareTag("Player"))
-        {
+        //if (other.gameObject.CompareTag("Player"))
+        
             //Debug.Log("Steve");
             //turns off current level
             thisLevel.SetActive(false);
@@ -39,6 +39,6 @@ public class NextLevel : MonoBehaviour
             other.transform.position = new Vector3(newX, newY, newZ);
             audioSource.clip = levelComplete;
             audioSource.Play();
-        }
+        
     }
 }
