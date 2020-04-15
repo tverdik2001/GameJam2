@@ -111,8 +111,6 @@ public class PlayerControl : MonoBehaviour
     public void GameOver()
     {
         //Place for enable gameover UI and restart level logic. 
-        Debug.Log("Game over"); 
-        Debug.Log("Game over2"); 
         SceneManager.LoadScene(2);
           
     }
